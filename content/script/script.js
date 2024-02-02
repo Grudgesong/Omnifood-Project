@@ -6,6 +6,32 @@ const headerEl = document.querySelector(".header");
 btnNavEl.addEventListener("click", function () {
   headerEl.classList.toggle("nav-open");
 });
+
+///////////////////////////////////////////////////////////
+//Smooth Scrolling Animation
+
+// const allLinks = document.querySelectorAll("a");
+// allLinks.forEach((link)=>{
+//   link.addEventListener("click", funtion(){
+//   //   const href = link.getAttribute("href");
+
+//   //   //Scroll back to Top
+//   //   if (href === "#")
+//   //     window.scrollTo({
+//   //     top:0,
+//   //     behavior:"smooth"
+//   //   });
+
+//   //   if(href !=="#" && href.startsWith("#")) {
+//   //     const sectionEl=document.querySelector(href);
+//   //   sectionEl.scrollIntoView({behaviour:"smooth"});
+//   // }
+
+//   if(link.classList.contains("main-nav-link"))
+//     headerEl.classList.toggle("nav-open");
+//   });
+// // });
+
 ///////////////////////////////////////////////////////////
 // Fixing flexbox gap property missing in some Safari versions
 function checkFlexGap() {

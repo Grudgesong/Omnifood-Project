@@ -63,6 +63,9 @@
 html {
   font-size: 62.5%;
   overflow-x: hidden;
+
+  /* Does not work on SAFARI */
+  scroll-behavior: smooth;
 }
 
 body {
